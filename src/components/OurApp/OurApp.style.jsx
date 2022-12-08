@@ -31,9 +31,9 @@ export const Wrapper = styled.div`
     padding-bottom: 60px;
     > .img__container {
       margin-right: 100px;
-      width: 42%;
+      margin-top: 229px;
       img {
-        width: 100%;
+        width: 81%;
       }
     }
     .content {
@@ -107,6 +107,9 @@ export const Wrapper = styled.div`
     }
   }
   @media (max-width: 900px) {
+    .img__container {
+      margin-top: 80px !important;
+    }
     .content {
       width: 50% !important;
       > img {
@@ -114,7 +117,7 @@ export const Wrapper = styled.div`
       }
     }
   }
-  @media (max-width: 780px) {
+  @media (max-width: 860px) {
     margin-top: 20px !important;
     .ourApp__container {
       flex-direction: column-reverse;
