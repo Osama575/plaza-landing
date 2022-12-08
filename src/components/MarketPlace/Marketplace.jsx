@@ -1,5 +1,6 @@
 import { Wrapper } from "./Marketplace.style";
-import demo from "../../Asset/demo.png";
+import chart from "../../Asset/chart.png";
+import iphone from "../../Asset/smaller_phone.png";
 import nigeria from "../../Asset/nig.png";
 import cameroon from "../../Asset/cam.png";
 
@@ -10,12 +11,14 @@ const Marketplace = () => {
         <div className="content">
           <h1>Want to grow your business online?</h1>
           <p>
-            Join plazzaa today to reach new customers, build loyalty and become a destination of choice. 
+            Join plazzaa today to reach new customers, build loyalty and become
+            a destination of choice.
           </p>
           <button>Partner with us</button>
         </div>
         <div className="img__container">
-          <img src={demo} alt="demo" />
+          <img src={chart} alt="demo" className="chart" />
+          <img src={iphone} alt="iphone" className="phone" />
         </div>
       </div>
       <div className="marketplace">
@@ -32,13 +35,13 @@ const Marketplace = () => {
             </div>
           </div>
           <h1>Get started today</h1>
-          <div className="text">
-          <p> 
+
+          <p>
             Find inspiration, book incredible deals and treat your loved ones.
           </p>
-          </div>
+
           <div className="end">
-          <button>Explore Marketplace</button>
+            <button>Explore Marketplace</button>
           </div>
         </div>
       </div>
