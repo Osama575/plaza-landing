@@ -35,17 +35,18 @@ const Marketplace = () => {
               <p>Cameroon</p>
             </div>
           </div>
-          <div className="back" style={{ backgroundImage: `url(${background})` }}>
+        </div>
+      </div>
+      <div
+        className="explore"
+        style={{ backgroundImage: `url(${background})` }}
+      >
+        <div className="explore__content">
           <h1>Join Plazzaa today</h1>
 
-          <p>
-            Find discounts, earn cash back and treat your loved ones.
-          </p>
+          <p>Find discounts, earn cash back and treat your loved ones.</p>
 
-          <div className="end">
-            <button>Explore Marketplace</button>
-          </div>
-          </div>
+          <button>Explore Marketplace</button>
         </div>
       </div>
     </Wrapper>

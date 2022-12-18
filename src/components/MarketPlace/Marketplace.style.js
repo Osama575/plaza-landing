@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   .open__shop {
     display: flex;
     background-color: #1f1f1f;
@@ -195,36 +195,83 @@ export const Wrapper = styled.div`
     }
   }
 
-  .end {
+  /* .end {
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
 
-    > button {
+  .explore {
+    height: 508px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 60px;
+    .explore__content {
+      margin-right: 130px;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      width: 180px;
-      height: 48px;
-      display: flex;
-      border: none;
-      background: #a70e0d;
-      border-radius: 10px;
-      font-family: var(--primary-font);
-      font-style: normal;
-      font-weight: 700;
-      font-size: 1rem;
-      color: #ffffff;
-      cursor: pointer;
-      margin: 25px 0;
-      text-align: center;
+      /* jus */
+      /* width: 36%; */
+      > h1 {
+        color: var(--clr-white);
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        letter-spacing: 0.04em;
+        line-height: 40px;
+      }
+      > p {
+        color: var(--clr-white);
+        margin: 6px 0;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 28px;
+      }
+      /* align-items: center; */
+      > button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 48px;
+        display: flex;
+        border: none;
+        background: #a70e0d;
+        border-radius: 10px;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 25px 0;
+        text-align: center;
+      }
     }
   }
-
-  .back {
-    justify-content:right;
+  @media (max-width: 760px) {
+    .explore {
+      justify-content: center;
+      .explore__content {
+        margin-right: 0px !important;
+        padding: 0 20px;
+        h1 {
+          text-align: center;
+          font-size: 1.7rem;
+        }
+        p {
+          text-align: center;
+          font-size: 1rem;
+        }
+      }
+    }
   }
-
   /* . text {
   display: flex;
   justify-content: center;
