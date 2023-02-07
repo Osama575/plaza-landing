@@ -3,19 +3,16 @@ import chart from "../../Asset/chart.png";
 import iphone from "../../Asset/smaller_phone.png";
 import nigeria from "../../Asset/nig.png";
 import cameroon from "../../Asset/cam.png";
-import background from "../../Asset/footer_img.png";
+// import background from "../../Asset/two_women.png";
 
 const Marketplace = () => {
   return (
     <Wrapper id="marketplace">
       <div className="open__shop">
         <div className="content">
-          <h1>Want to grow your business online?</h1>
-          <p>
-            Join plazzaa today to reach new customers, build loyalty and become
-            a destination of choice.
-          </p>
-          <button>Partner with us</button>
+          <h1>Let’s grow your business together.</h1>
+          <p>Attract, engage, and retain more customers with Plazzaa.</p>
+          <button>Contact Sales</button>
         </div>
         <div className="img__container">
           <img src={chart} alt="demo" className="chart" />
@@ -37,10 +34,7 @@ const Marketplace = () => {
           </div>
         </div>
       </div>
-      <div
-        className="explore"
-        style={{ backgroundImage: `url(${background})` }}
-      >
+      <div className="explore">
         <div className="explore__content">
           <h1>Join Plazzaa today</h1>
 

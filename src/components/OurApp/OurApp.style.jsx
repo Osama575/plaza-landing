@@ -6,7 +6,6 @@ export const Wrapper = styled.div`
   -webkit-background-size: cover;
   margin-top: 130px;
   width: 100%;
-  /* height: 800px; */
   overflow: hidden;
   position: relative;
   z-index: -10;
@@ -128,7 +127,7 @@ export const Wrapper = styled.div`
       margin-top: 40px;
       margin-right: 0 !important;
       width: 150%;
-      padding-left:150px;
+      padding-left: 150px;
 
       > img {
         width: 150%;

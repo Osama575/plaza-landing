@@ -24,8 +24,7 @@ const Services = () => {
       </div>
       <div className="service__marketplace">
         <div className="btn">
-          
-          <button>Explore Marketplace</button>
+          <button>Start selling online</button>
         </div>
       </div>
     </Wrapper>

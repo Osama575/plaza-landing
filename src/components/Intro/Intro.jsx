@@ -11,14 +11,14 @@ const Intro = () => {
     <Wrapper id="home">
       <div className="intro__details">
         <h1>
-          Discounts, Cashback, Gifts <span>all year round</span>
+          Digital commerce tools to <span>grow your business</span>
         </h1>
 
         <p>
-          From local services to distant adventures to gift vouchers,
-          Plazzaa is your one stop shop to find the best deals for every
-          occasion.
+          Sell online, engage your customers, and manage your entire business,
+          all with one easy-to-use solution.
         </p>
+        <button className="intro__btn">Request Demo</button>
       </div>
       <div className="intro__img">
         <div className="img__container-1 small_img">

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  /* width: 88%; */
   margin-top: 80px;
   margin-left: 90px;
   display: flex;
@@ -16,15 +15,10 @@ export const Wrapper = styled.div`
       font-family: var(--primary-font);
       font-style: normal;
       font-weight: 700;
-      font-size: 3.1rem;
+      font-size: 4rem;
       color: var(--clr-black);
       > span {
-        background: #dbd8f7;
-        display: block;
-        width: 300px;
-        padding: 10px 15px;
-        border-radius: 10px;
-        clip-path: polygon(0 0, 100% 28%, 100% 77%, 0 100%);
+        text-shadow: 5px 2px 0px rgba(167, 14, 13, 1);
       }
     }
 
@@ -34,16 +28,41 @@ export const Wrapper = styled.div`
       font-family: var(--primary-font);
       font-style: normal;
       font-weight: 400;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
       color: #5a5a50;
       width: 80%;
-      margin-bottom:14px
+      margin-bottom: 14px;
+    }
+    .intro__btn {
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* padding: 15.8347px 38.0034px; */
+      width: 200.01px;
+      height: 60.01px;
+      background: #a70e0d;
+      border-radius: 15.8347px;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      font-family: var(--primary-font);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      /* line-height: 20px; */
+      /* or 143% */
+
+      letter-spacing: 0.1px;
+
+      color: #ffffff;
     }
   }
   .intro__img {
     width: 47%;
     position: relative;
-    
+
     .img__container-1 {
       position: absolute;
       top: 0;
